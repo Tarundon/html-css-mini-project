@@ -1,0 +1,40 @@
+
+body{
+    min-height: 100vh;
+    font-family: 'Space Mono', monospace;
+        font-weight: 700;
+}
+div.container-fluid{
+   min-height: 100vh;
+    background-color: bisque;
+    
+}
+div.img_container{
+    display: flex;
+    justify-content: center;
+   padding-top: 15px;
+}
+.img-logo{
+    width: 160px ;
+    height: 150px;
+    border-radius: 160px;
+
+}
+div.box-2{
+    margin: 20px ;
+    height: auto;
+    border-radius: 35px;
+    background-color: whitesmoke;
+}
+div.inner-box{
+    display: flex;
+    justify-content: center;
+}
+.mb-3 button{
+    background-color: rgb(53, 52, 52);
+    width: 85px;
+}
+div.reset{
+    display: flex;
+    justify-content: center;
+}
