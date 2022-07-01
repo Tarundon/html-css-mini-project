@@ -1,24 +1,36 @@
+/* :root{
+    --primary: rgba(90, 21, 19, 0.65);
+    --secondary: rgba(210, 64, 64, 0.648);
+} */
 
 body{
     min-height: 100vh;
     font-family: 'Space Mono', monospace;
         font-weight: 700;
+        background-image: linear-gradient(135deg,  rgba(44, 26, 182, 0.5),rgba(212, 32, 25, 0.5)),
+                          url('/kris-atomic-3b2tADGAWnU-unsplash.jpg');
+                          
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-size: auto; */
+        color: white;
+        
 }
 div.container-fluid{
-   min-height: 100vh;
-    background-color: bisque;
-    
-}
-div.img_container{
+    margin-bottom: 20px;
     display: flex;
     justify-content: center;
-   padding-top: 15px;
+    align-items: center;
+    padding-top: 15px;
+    /* background-color: bisque; */
+    
 }
+
 .img-logo{
     width: 160px ;
     height: 150px;
     border-radius: 160px;
-
+    
 }
 div.box-2{
     margin: 20px ;
@@ -37,4 +49,8 @@ div.inner-box{
 div.reset{
     display: flex;
     justify-content: center;
+}
+.row{
+    margin-right: auto;
+    margin-left: auto;
 }

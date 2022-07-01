@@ -19,41 +19,44 @@
     <link rel="stylesheet" href="style.css" />
     <!-- <link rel="stylesheet" href="/mini_project/css/estilos-principales.css"> -->
     <style>
-      button.custom{
-          background-color: aquamarine;
-          color: darkslategray;
+      button{
+          background-color: rgb(19, 20, 20);
+          color: rgb(255, 255, 255);
       }
       button.reset{
-        background-color: tomato;
-        width: 300px;
-        color: rgb(58, 46, 37);
+        background-color: rgba(23, 16, 6, 0.8);
+        width: 250px;
+        color: rgb(255, 255, 255);
         margin-bottom:20px ;
+      }
+      button.reset:hover{
+        background-color: rgba(78, 152, 141, 0.9) ;
+        color: rgb(0, 0, 0);
       }
       
     </style>
   </head>
   <body>
     <div class="container-fluid">
-      <div class="container img_container">
         <img
           src="tips-are-appreciated_copy.jpg"
           class="img-logo"
           alt="image_logo"
         />
       </div>
-      <div class="container">
+      <div class="container row justify-content-center">
         <form action="" method="get">
-          <div class="mb-3">
+          <div class="mb-3 col-xs-6 " >
             <label for="FormControlInput1" class="form-label">Bill</label>
-            <input type="number" class="form-control" id="FormControlInput1" placeholder="Enter Amount">
+            <input type="number" class="form-control col-xs-6" id="FormControlInput1" placeholder="Enter Amount">
           </div>
           <div class="mb-3">
             <p>Select tip %</p>
-            <button type="button" class="btn btn-primary">5%</button>
-            <button type="button" class="btn btn-primary">10%</button>
-            <button type="button" class="btn btn-primary">15%</button>
-            <button type="button" class="btn btn-primary">25%</button>
-            <button type="button" class="btn btn-primary">50%</button>
+            <button type="button" class="btn btn-primary mx-2">5%</button>
+            <button type="button" class="btn btn-primary mx-2">10%</button>
+            <button type="button" class="btn btn-primary mx-2">15%</button>
+            <button type="button" class="btn btn-primary mx-2">25%</button>
+            <button type="button" class="btn btn-primary mx-2">50%</button>
             <button type="button" class="btn btn-primary custom">Custom</button>
           </div>
           <div class="mb-3">
